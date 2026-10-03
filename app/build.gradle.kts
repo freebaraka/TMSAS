@@ -10,6 +10,7 @@ android {
     // Step 3 & 4: Enabling View Binding
     buildFeatures {
         viewBinding = true
+        dataBinding = true// Step 14 - Turning on Data Binding
     }
 
     defaultConfig {
